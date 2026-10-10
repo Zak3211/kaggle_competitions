@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# Un-ignore directories so git descends into them
+!*/
+
+# Keep notebooks
+!*.ipynb
+
+# Re-ignore Jupyter's autosave copies (they're .ipynb too)
+.ipynb_checkpoints/
+
+# Keep this file itself (drop this line if you really want only notebooks)
+!.gitignore
